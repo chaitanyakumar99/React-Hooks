@@ -1,10 +1,10 @@
 import React from 'react'
-import Functioncounter from './Component/Functionalcounter'
+import Functioncounter1 from './Component/Functionalcounter1'
 
 const App=()=>{
     return <div>
         <h1>App Component</h1>
-        <Functioncounter/>
+        <Functioncounter1/>
     </div>
 }
 
