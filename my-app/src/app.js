@@ -1,10 +1,9 @@
 import React from 'react'
-import Functioncounter1 from './Component/Functionalcounter1'
-
+import Functionalform from './Createform/Functionalform'
 const App=()=>{
     return <div>
         <h1>App Component</h1>
-        <Functioncounter1/>
+        <Functionalform/>
     </div>
 }
 
