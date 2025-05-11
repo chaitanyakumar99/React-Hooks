@@ -16,7 +16,7 @@ function Fynctioncounter() {
         <button onClick={increase}>Incr</button>
         <h1>Count:{count}</h1>  
         <button onClick={decrease}>Decr</button>
-    </div>
+    </div>      
 }
 
 export default Fynctioncounter

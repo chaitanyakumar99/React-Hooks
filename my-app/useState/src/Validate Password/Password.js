@@ -24,7 +24,7 @@ function Password() {
             setError("password should be more than 4 charcters")
         }
         else if (regExpSpecialChars.test(password)) {
-            setError("password should be at lest 1 digit,2 special chars, 1 lower and upper letters ")
+            setError("password should be at least 1 digit,2 special chars, 1 lower and upper letters ")
         }
         else if (password !== conPassword) {
             setError("password should match")
@@ -44,7 +44,7 @@ function Password() {
 
         <label>ConPassword:</label>
         <input type="cPassword"
-            name="Password"
+            name="cPassword"
             value={cpassword}
             onChange={conPassword} /><span style={{ color: "red" }}>{error}</span> <br />
 
