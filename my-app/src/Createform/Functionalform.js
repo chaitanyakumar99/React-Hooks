@@ -4,7 +4,6 @@ function Functionalform() {
 
     const [inputfield, setInputfield] = useState({ name: "", email: "", sal: "", loc: "" })
 
-
     const updateform = (e) => {
         setInputfield({ [e.target.name]: e.target.value })
     }
